@@ -9,7 +9,7 @@ import { finalizeMesh } from './finalizeMesh.js';
 
 function save_stl() {
     var smooth = jQuery('#subdivideSLT').val() > 0 ? jQuery('#subdivideSLT').val() : undefined;
-    var mirroredPose = CK.character.data.mirroredPose;
+    var mirroredPose = 0;
 
     var group = process(CK.character, smooth, mirroredPose);
 
