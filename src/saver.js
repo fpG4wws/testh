@@ -8,18 +8,7 @@ import { arrive } from 'arrive';
 import { finalizeMesh } from './finalizeMesh.js';
 
 function save_stl() {
-    var smooth = jQuery('#subdivideSLT').val() > 0 ? jQuery('#subdivideSLT').val() : undefined;
-    var mirroredPose = 0;
 
-    var group = process(CK.character, smooth, mirroredPose);
-
-    var exporter = new STLExporter();
-    var fileString = exporter.parse(group);
-
-    var name = get_name();
-
-    var blob = new Blob([fileString], { type: "application/sla;charset=utf-8" });
-    saveAs(blob, name + ((smooth) ? '-smooth' : '') + '.stl');
 };
 
 function save_obj() {
