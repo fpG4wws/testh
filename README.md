@@ -70,6 +70,7 @@ npm run build
 
 Current bugs, open to solutions/suggestions
 * Shaders are not included, causing a more _'blocky'_ output, work on the THREE.js section is needed for this.
+* Broken Faces
 
 ## Future work
 
@@ -78,9 +79,6 @@ Current things to work on, open to solutions/suggestions
 
 ## Done
 
-###Current Bugs 
-
-* Broken Faces
 
 ### Finished work
 
