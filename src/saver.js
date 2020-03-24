@@ -85,7 +85,7 @@ function mirror(geometry) {
 
         geometry.attributes.position.array[i * 9 + 6] = tempXYZ[0];
         geometry.attributes.position.array[i * 9 + 7] = tempXYZ[1];
-        geometry.attributes.position.array[i * 9 + 8] = tempXYZ[2];
+        geometry.attributes.position.array[i * 9 + 9] = tempXYZ[2];
     }
 
     return geometry;
